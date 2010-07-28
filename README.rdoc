@@ -3,19 +3,18 @@
 A tree hierarchy module for Mongoid::Document classes. Super beta.
 
 == Example
-class Node
-  include Mongoid::Document
-  include Treeoid
-end
+  class Node
+    include Mongoid::Document
+    include Treeoid
+  end
 
-n1 = Node.new
-n2 = Node.new
-n3 = Node.new
+  n1 = Node.new
+  n2 = Node.new
+  n3 = Node.new
 
-n2.children << n1
-n1.parent # n2
-Node.hierarchically.to_a # [n2, n1, n3]
-
+  n2.children << n1
+  n1.parent # n2
+  Node.hierarchically.to_a # [n2, n1, n3]
 
 == Note on Patches/Pull Requests
  
