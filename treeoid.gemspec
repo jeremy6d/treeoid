@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jeremy Weiland"]
   s.date = %q{2010-07-28}
-  s.description = %q{With treeoid, you can create tree-style hierarchies for Mongoid classes. Just "include Treeoid" and you're ready to roll. You get a "parent" accessor, a "children" array, plus a scope called "hierarchically" that spits everything out in hierarchical order - perfect for front end rendering.}
+  s.description = %q{TODO: longer description of your gem}
   s.email = %q{jeremy6d@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -35,7 +35,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{Tree hierarchies for your Mongoid::Document objects.}
+  s.summary = %q{TODO: one-line summary of your gem}
   s.test_files = [
     "test/helper.rb",
      "test/test_treeoid.rb"
