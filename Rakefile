@@ -5,12 +5,14 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "treeoid"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = "Tree structure mixin for Mongoid::Document classes"
+    gem.description = %Q{With treeoid, you can create tree-style hierarchies for Mongoid classes. Just "include Treeoid" and you're ready to roll. You get a "parent" accessor, a "children" array, plus a scope called "hierarchically" that spits everything out in hierarchical order - perfect for front end rendering.}
     gem.email = "jeremy6d@gmail.com"
     gem.homepage = "http://github.com/jeremy6d/treeoid"
     gem.authors = ["Jeremy Weiland"]
+    gem.add_runtime_dependency "mongoid", ">=2.0.0.beta11"
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    gem.add_development_dependency "jm-matchy", ">= 0"
     gem.add_development_dependency "cucumber", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

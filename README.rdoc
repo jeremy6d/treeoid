@@ -1,6 +1,6 @@
 = treeoid
 
-Description goes here.
+A tree hierarchy module for Mongoid::Document classes. Super beta.
 
 == Note on Patches/Pull Requests
  
